@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  font-size: 90%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+html body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+/* HEADER NAV SECTION STARTS 
+=====================================================================================
+*/
+
+.custom-nav {
+  background-color: white;
+}
+
+.logo img {
+  width: 72px;
+  height: 62px;
+}
+
+.navbtn {
+  background: transparent;
+  border: none;
+  font-size: 2em;
+  padding-right: 0.3em;
+  position: relative;
+  bottom: 0.1em;
+}
+
+.nav-bar-ul ul li a {
+  color: black;
+  font-size: 1.2em;
+}
+
+.nav-bar-ul ul li a:hover {
+  color: #e5ccc6;
+}
+
+/* HEADER BANNER SECTION STARTS 
+=====================================================================================
+*/
+.header-banner-row {
+  background-image: url(header-banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-banner-img {
+  padding-left: 2em;
+  padding-bottom: 4em;
+}
+
+.header-banner-img img {
+  width: 19em;
+  height: 25em;
+  padding-top: 4em;
+}
+
+.header-banner-info {
+  padding-left: 1.5em;
+}
+
+.header-banner-info h2 {
+  font-size: 2.4em;
+  padding-bottom: 2em;
+}
+
+.header-banner-info p {
+  font-size: 1.2em;
+  padding-bottom: 3.5em;
+}
+
+.header-banner-info button {
+  font-size: 1.4em;
+  padding: 0.3em 0.8em 0.3em 0.8em;
+  background-color: #e5ccc6;
+  border: 2px solid #e5ccc6;
+  margin-bottom: 2em;
+}
+
+.header-banner-info button:hover {
+  border: 2px solid black;
+}
+/* PREGNANT WOMEN PROGRAM SECTION 
+=====================================================================================
+*/
+.preg-women-section {
+  background-image: url(preg-woman.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.preg-women-info {
+  padding-left: 1.5em;
+}
+
+.preg-women-info h2 {
+  font-size: 2.4em;
+  padding-bottom: 2em;
+}
+
+.preg-women-info p {
+  font-size: 1.2em;
+  padding-bottom: 3.5em;
+}
+
+.preg-women-info button {
+  font-size: 1.4em;
+  padding: 0.3em 0.8em 0.3em 0.8em;
+  background-color: #e5ccc6;
+  border: 2px solid #e5ccc6;
+  margin-bottom: 2em;
+}
+
+.preg-women-info button:hover {
+  border: 2px solid black;
+}
+/* PROGRAMS SECTION
+=====================================================================================
+*/
+.programs-section {
+  margin-top: 10em;
+}
+.programs-info {
+  padding-bottom: 6em;
+}
+
+#program2inner img {
+  margin-top: -3.5em;
+}
+
+#program3inner img {
+  margin-top: -4.6em;
+}
+/* YOGA BREATHING SECTION
+=====================================================================================
+*/
+.yoga-breathing-row {
+  background-image: url(yogabreathingbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.yoga-breathing-info {
+  padding-top: 7em;
+  padding-left: 1.4em;
+}
+
+.yoga-breathing-info h2 {
+  font-size: 2.4em;
+  padding-bottom: 0.7em;
+}
+
+.yoga-breathing-info p {
+  font-size: 1.2em;
+  padding-bottom: 2em;
+}
+
+.yoga-breathing-info button {
+  font-size: 1.4em;
+  padding: 0.3em 0.8em 0.3em 0.8em;
+  background-color: #e5ccc6;
+  border: 2px solid #e5ccc6;
+  margin-bottom: 2em;
+}
+
+.yoga-breathing-info button:hover {
+  border: 2px solid black;
+}
+
+.yoga-breathing-img img {
+  width: 22.2em;
+  padding-bottom: 3em;
+}
+/* JOIN NOW SECTION
+=====================================================================================
+*/
+.join-now-row {
+  background-color: #e9e8e6;
+  height: 130vh;
+}
+
+.join-now-img img {
+  width: 35em;
+}
+
+.join-now-info {
+  padding-top: 8em;
+  padding-left: 1.4em;
+}
+
+.join-now-info h2 {
+  font-size: 2.4em;
+  padding-bottom: 0.7em;
+}
+
+.join-now-info p {
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
+
+.join-now-info button {
+  font-size: 1.4em;
+  padding: 0.3em 0.8em 0.3em 0.8em;
+  background-color: #e5ccc6;
+  border: 2px solid #e5ccc6;
+  margin-bottom: 2em;
+}
+
+.join-now-info button:hover {
+  border: 2px solid black;
+}
+/* GALLERY SECTION
+=====================================================================================
+*/
+.gallery-section-row {
+  margin-top: 14em;
+  text-align: center;
+}
+.gallery-section-row h2 {
+  text-align: center;
+  font-size: 3em;
+}
+.gallery-section-row p {
+  text-align: center;
+  font-size: 1.2em;
+  padding-bottom: 2em;
+}
+.gallery-card {
+  padding-bottom: 5em;
+  padding-right: 2.5em;
+  padding-left: 2.5em;
+}
+.gallery-card h5 {
+  font-size: 2em;
+}
+/*  YOGA SHOWREEL SECTION
+=====================================================================================
+*/
+.yoga-showreel-row {
+  background-color: #e5ccc6;
+  padding-top: 3em;
+  height: 100vh;
+}
+.yoga-showreel-info h2 {
+  font-size: 2.4em;
+  padding-bottom: 0.7em;
+}
+
+.yoga-showreel-info p {
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
+
+.yoga-showreel-info i {
+  font-size: 3em;
+  padding-left: 0.2em;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+/*  GET IN TOUCH SECTION
+=====================================================================================
+*/
+.get-in-touch-row {
+  margin-top: 17em;
+  height: 100vh;
+  background-image: url(get-in-touch-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.get-in-touch-info h2 {
+  font-size: 2.5em;
+  padding-bottom: 0.5em;
+}
+
+.get-in-touch-info p {
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
+}
+
+.get-in-touch-info .input-area1 {
+  background-color: #efefef;
+  color: black;
+  font-size: 1.3em;
+  border: 2px solid #b0b0b0;
+  width: 75%;
+  height: 3rem;
+  padding-left: 0.3em;
+  margin-bottom: 1em;
+}
+
+.get-in-touch-info #input-area2 {
+  background-color: #efefef;
+  color: black;
+  font-size: 1.3em;
+  border: 2px solid #b0b0b0;
+  width: 75%;
+  height: 9rem;
+  padding-left: 0.3em;
+  margin-bottom: 1em;
+  white-space: pre;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+}
+
+.get-in-touch-info button {
+  font-size: 1.2em;
+  padding: 0.3em 0.8em 0.3em 0.8em;
+  background-color: #e5ccc6;
+  border: 2px solid #e5ccc6;
+  margin-bottom: 2em;
+}
+.get-in-touch-info button:hover {
+  border: 2px solid black;
+}
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}
+/*  FOOTER SECTION
+=====================================================================================
+*/
+.footer-row {
+  background-color: #484f5b;
+  height: 190vh;
+  color: white;
+}
+.footer-row ul li {
+  list-style-type: none;
+  text-align: center;
+  padding-right: 2em;
+}
+.footer-row ul {
+  text-align: center;
+}
+#footer-logo {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#company-details {
+  padding-bottom: 2em;
+}
+#company-details a {
+  text-decoration: none;
+  color: white;
+}
+#company-details p {
+  padding-bottom: 1.5em;
+}
+#footer-copy-social i {
+  font-size: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+/* MEDIA QUERIES 
+=====================================================================================
+*/
+
+@media (min-width: 428px) {
+  .header-banner-img img {
+    width: 25em;
+    height: 33em;
+  }
+  .header-banner-info h2 {
+    font-size: 3.5em;
+    padding-bottom: 1em;
+  }
+  .header-banner-info p {
+    font-size: 1.4em;
+  }
+  .preg-women-section {
+    height: 92vh;
+  }
+  .preg-women-info h2 {
+    font-size: 3em;
+    padding-bottom: 1em;
+  }
+  .preg-women-info p {
+    font-size: 1.4em;
+  }
+  .yoga-breathing-info h2 {
+    font-size: 3em;
+    padding-bottom: 1em;
+  }
+  .yoga-breathing-info p {
+    font-size: 1.4em;
+  }
+  .yoga-breathing-img img {
+    width: 28em;
+  }
+  .join-now-row {
+    height: 94vh;
+  }
+  .join-now-info h2 {
+    font-size: 3em;
+    padding-bottom: 1em;
+  }
+  .join-now-info p {
+    font-size: 1.4em;
+  }
+  .join-now-img img {
+    width: 47em;
+  }
+  .footer-row {
+    height: 120vh;
+  }
+}
+@media (min-width: 700px) {
+  .get-in-touch-info .input-area1 {
+    width: 90%;
+  }
+  .get-in-touch-info #input-area2 {
+    width: 90%;
+  }
+  .get-in-touch-info button {
+    font-size: 1.4em;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-banner-row {
+    width: 100%;
+  }
+  .header-banner-img img {
+    width: 45em;
+    height: 45em;
+    padding-left: 7em;
+  }
+  .preg-women-section {
+    height: 92vh;
+  }
+  .yoga-breathing-img img {
+    width: 37em;
+  }
+  .join-now-img img {
+    width: 80em;
+  }
+  .yoga-showreel-info h2 {
+    font-size: 3.5em;
+  }
+  .yoga-showreel-info p {
+    font-size: 1.5em;
+  }
+  .yoga-showreel-info i {
+    font-size: 4.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbtn {
+    display: none;
+  }
+  .nav-bar-ul ul li {
+    padding-right: 2.3em;
+  }
+  .nav-bar-ul ul li a {
+    font-size: 1.35em;
+  }
+  .header-banner-row {
+    height: 100vh;
+  }
+  .header-banner-info {
+    padding-left: 10em;
+  }
+  .header-banner-info h2 {
+    font-size: 2.8em;
+  }
+  .header-banner-info p {
+    font-size: 1.2em;
+  }
+  .preg-women-section {
+    margin-top: 5em;
+    padding-left: 4em;
+  }
+  .preg-women-info h2 {
+    font-size: 3.5em;
+  }
+  .preg-women-section p {
+    font-size: 1.5em;
+  }
+  .preg-women-info button {
+    font-size: 1.7em;
+  }
+  .yoga-breathing-row {
+    height: 92vh;
+  }
+  .yoga-breathing-info {
+    padding-left: 4em;
+  }
+  .yoga-breathing-img img {
+    width: 32em;
+  }
+  .join-now-info h2 {
+    font-size: 3.5em;
+  }
+  .join-now-info p {
+    font-size: 1.5em;
+  }
+  .join-now-info button {
+    font-size: 1.7em;
+  }
+  .join-now-img img {
+    width: 82em;
+  }
+  .gallery-section-row {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  .footer-row {
+    height: 30vh;
+  }
+  #footer-copy-social i {
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header-banner-img img {
+    width: 50em;
+    height: 68em;
+  }
+  .header-banner-info {
+    padding-left: 4em;
+  }
+  .header-banner-info h2 {
+    font-size: 4em;
+  }
+  .header-banner-info p {
+    font-size: 1.5em;
+  }
+  .header-banner-info button {
+    font-size: 1.8em;
+  }
+  .preg-women-section {
+    padding-left: 6em;
+  }
+  .preg-women-info h2 {
+    font-size: 4.5em;
+  }
+  .preg-women-section p {
+    font-size: 1.7em;
+  }
+  .preg-women-info button {
+    font-size: 1.9em;
+  }
+  .yoga-breathing-row {
+    padding-left: 6em;
+  }
+  .yoga-breathing-info h2 {
+    font-size: 4.5em;
+  }
+  .yoga-breathing-info p {
+    font-size: 1.7em;
+  }
+  .yoga-breathing-info button {
+    font-size: 1.9em;
+  }
+  .yoga-breathing-img img {
+    width: 46em;
+  }
+  .join-now-info h2 {
+    font-size: 4.5em;
+  }
+  .join-now-info p {
+    font-size: 1.7em;
+  }
+  .join-now-info button {
+    font-size: 1.9em;
+  }
+  .join-now-info img {
+    width: 90em;
+  }
+  .yoga-showreel-info h2 {
+    font-size: 4.5em;
+  }
+  .yoga-showreel-info p {
+    font-size: 1.7em;
+  }
+  .get-in-touch-info h2 {
+    font-size: 4.5rem;
+  }
+  .get-in-touch-info p {
+    font-size: 1.7em;
+  }
+  .get-in-touch-info .input-area1 {
+    height: 4rem;
+  }
+  .get-in-touch-info #input-area2 {
+    height: 14rem;
+  }
+  .get-in-touch-info button {
+    font-size: 1.9em;
+  }
+}
+
+@media (min-width: 1700px) {
+  .header-banner-img img {
+    width: 52em;
+    height: 72em;
+  }
+  .header-banner-row {
+    background-position: center;
+  }
+  .header-banner-info {
+    padding-left: 6em;
+  }
+  .header-banner-info h2 {
+    font-size: 6em;
+  }
+  .header-banner-info p {
+    font-size: 1.7em;
+  }
+  .header-banner-info button {
+    font-size: 2em;
+  }
+  .preg-women-section {
+    padding-left: 6em;
+    background-position: center;
+  }
+  .preg-women-info h2 {
+    font-size: 6em;
+  }
+  .preg-women-section p {
+    font-size: 1.7em;
+  }
+  .preg-women-info button {
+    font-size: 2em;
+  }
+  .yoga-breathing-row {
+    background-position: center;
+  }
+  .yoga-breathing-info {
+    padding-left: 6em;
+  }
+  .yoga-breathing-info h2 {
+    font-size: 6em;
+  }
+  .yoga-breathing-info p {
+    font-size: 1.7em;
+  }
+  .yoga-breathing-info button {
+    font-size: 2em;
+  }
+  .join-now-info {
+    padding-left: 6em;
+  }
+  .join-now-info h2 {
+    font-size: 6em;
+  }
+  .join-now-info p {
+    font-size: 1.7em;
+  }
+  .join-now-info button {
+    font-size: 2em;
+  }
+  .join-now-img img {
+    width: 100em;
+  }
+  .gallery-section-row {
+    background-image: url(gallery-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  .yoga-showreel-info h2 {
+    font-size: 6em;
+  }
+  .yoga-showreel-info p {
+    font-size: 1.8em;
+  }
+  .get-in-touch-info h2 {
+    font-size: 6em;
+  }
+  .get-in-touch-info button {
+    font-size: 2em;
+  }
+}
